@@ -1,0 +1,1 @@
+spark-submit --master local[*] --name ndAssessment --deploy-mode client --executor-memory 2G --driver-memory 4G --num-executors 2 --executor-cores 2 ndAssessment.py
